@@ -1,1 +1,81 @@
+Git and GitHub interview questions and answers: 
 
+What is Git, and why is it used? 
+
+Answer: Git is a distributed version control system that allows multiple people to work on the same codebase simultaneously. It is used to keep track of changes made to files, collaborate with others, and revert changes if needed. 
+
+How does Git differ from other version control systems? 
+
+Answer: Git is a distributed version control system, which means that every user has a complete copy of the repository, including its entire history. This makes it possible to work offline and merge changes from different branches easily. In contrast, centralized version control systems, such as SVN, have a single central repository that users must access to work on the codebase. 
+
+What is a commit in Git? 
+
+Answer: A commit in Git is a snapshot of the changes made to the codebase. Each commit has a unique ID and a message describing the changes made. Commits are the fundamental building blocks of the Git version control system. 
+
+What is the difference between Git fetch and Git pull? 
+
+Answer: Git fetch downloads the latest changes from a remote repository but does not automatically merge them with the local repository. Git pull, on the other hand, downloads and merges the changes from the remote repository automatically. 
+
+What is a Git repository, and how do you create one? 
+
+Answer: A Git repository is a collection of files and directories that are managed by Git. To create a Git repository, you can use the git init command in a directory with the files you want to track. 
+
+What is a Git branch, and how do you create one? 
+
+Answer: A Git branch is a separate version of the codebase that can be worked on independently of the main codebase. To create a Git branch, you can use the git branch command, followed by the name of the new branch. 
+
+How do you merge branches in Git? 
+
+Answer: To merge branches in Git, you can use the git merge command, followed by the name of the branch you want to merge into the current branch. 
+
+What is a Git conflict, and how do you resolve it? 
+
+Answer: A Git conflict occurs when two branches have made changes to the same code, and Git is unable to automatically merge the changes. To resolve a Git conflict, you need to manually edit the code to combine the changes from both branches. 
+
+What is GitHub, and how does it relate to Git? 
+
+Answer: GitHub is a web-based hosting service for Git repositories. It provides a user-friendly interface for managing repositories, collaborating with others, and tracking changes. 
+
+How do you collaborate on a project using Git and GitHub? 
+
+Answer: To collaborate on a project using Git and GitHub, multiple users can clone the same repository, make changes to the codebase in their own branches, and submit pull requests to merge their changes into the main branch. 
+
+What is a pull request, and how is it used in GitHub? 
+
+Answer: A pull request is a request to merge changes from one branch into another. In GitHub, pull requests are used to review and discuss changes made by other contributors to the repository. 
+
+What is a Git fork, and how is it used in GitHub? 
+
+Answer: A Git fork is a copy of a repository that can be edited independently of the original repository. In GitHub, forks are often used to make changes to open-source projects that are not maintained by the original author. 
+
+What is a Git tag, and how is it used? 
+
+Answer: A Git tag is a label that can be applied to a specific commit in a repository. Tags are often used to mark releases or milestones in the codebase. 
+
+How do you revert changes in Git 
+
+Answer: To revert changes in Git, you can use the git revert command, followed by the commit ID of the commit you want to undo. This will create a new commit that undoes the changes made in the specified commit. 
+
+What are Git hooks, and how do they work? 
+
+Answer: Git hooks are scripts that are run automatically by Git in response to specific events, such as committing code or merging branches. Hooks can be used to enforce coding standards, run automated tests, or perform other tasks as part of the development workflow. Git provides a set of pre-defined hooks, but you can also create your own custom hooks to suit your needs. 
+
+What is the difference between Git and GitHub? 
+
+Answer: Git is a version control system that tracks changes to files, while GitHub is a web-based platform for hosting Git repositories, collaborating with other developers, and sharing code with the community. 
+
+What is the difference between Git and SVN? 
+
+Answer: Git is a distributed version control system that allows users to work offline and merge changes easily. SVN, on the other hand, is a centralized version control system that requires users to access a central repository to work on the codebase. 
+
+What is a .gitignore file, and how is it used? 
+
+Answer: A .gitignore file is a file that tells Git which files and directories to ignore when tracking changes in a repository. It is often used to exclude files such as build artifacts, temporary files, or other files that are not part of the codebase. 
+
+How do you revert a merge in Git? 
+
+Answer: To revert a merge in Git, you can use the git revert command, followed by the commit ID of the merge commit. This will create a new commit that undoes the changes made by the merge. 
+
+What is Git stash, and how is it used? 
+
+Answer: Git stash is a command that allows you to save changes in your working directory that are not yet ready to be committed. Stashed changes can be retrieved later using the git stash apply command. This is useful when you need to switch to another branch or work on a different task temporarily without committing your changes. 
