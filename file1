@@ -1,0 +1,88 @@
+ git clone https://github.com/priyaramskmr/febbank2023.git
+  502  touch file1
+  503  ls
+  504  cd febbank2023
+  505  cd ..
+  506  ll
+  507  ls
+  508  ls
+  509  ll
+  510  ls
+  511  cd febbank2023/
+  512  ls
+  513  touch file1
+  514  ls
+  515  git status
+  516  touch file2
+  517  ls
+  518  git add file2
+  519  git status
+  520  git add file1
+  521  git status
+  522  git commit -m "file1 as committed" file1
+  523  git log
+  524  git show 25d1abf1e6d489f6937d590e96f84a3e834a86aa
+  525  vi file3
+  526  ls
+  527  cat file34
+  528  cat file3
+  529  vi file4
+  530  ls.
+  531  ls
+  532  cat file4
+  533  git log
+  534  vi file1
+  535  cat file1
+  536  git log
+  537  cat >> file1
+  538  cat file1
+  539  git log
+  540  git show 25d1abf1e6d489f6937d590e96f84a3e834a86aa
+  541  git status.
+  542  git status
+  543  git commit -m "file1 modified" file1
+  544  vi file1
+  545  caty file1
+  546  cat file1
+  547  git status
+  548  git log
+  549  git show 7fba367c2169c0e7dd35a91e47036b3991a3a084
+  550  git status
+  551  git commit -m "agian modified of file1" file1
+  552  git log
+  553  git show 64e79944da062b95ccd403c139c16cb7d6731750
+  554  git push
+  555  git remote -v
+  556  git log
+  557  touch f1
+  558  git add f1
+  559  git commit -m "f1 has committed" f1
+  560  gitlog
+  561  git log
+  562  git push https://github.com/priyaramskmr/pro1.git
+  563  git remote neworigin https://github.com/priyaramskmr/pro1.git
+  564  git remote  add neworigin https://github.com/priyaramskmr/pro1.git
+  565  git remote -v
+  566  git push neworigin
+  567  git push neworigin maimn
+  568  git push neworigin main
+  569  cd ..
+  570  ls
+  571  git status
+  572  git init
+  573  ls
+  574  ls -a
+  575  ll -a
+  576  git status
+  577  git add *
+  578  git stastus
+  579  git status
+  580  git commit -m "file1 from git to githob of pro1 repository" file1
+  581  git log
+  582  git status
+  583  git remote -v
+  584  git push https://github.com/priyaramskmr/pro1.git
+  585  git push --set-upstream https://github.com/priyaramskmr/pro1.git master
+  586  git push --set-upstream https://github.com/priyaramskmr/pro1.git main
+  587  git remote -v
+  588  git push https://github.com/priyaramskmr/pro1.git
